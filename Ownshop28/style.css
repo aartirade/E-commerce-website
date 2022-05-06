@@ -1,0 +1,143 @@
+body {
+}
+
+nav {
+  background-color: #e8e8e8;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+nav h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  font-weight: 600 !important;
+}
+
+.navbar-nav a:hover {
+  background-color: #d5d6ea;
+}
+
+.nav-item .btn:hover {
+  background-color: #ff3333;
+}
+
+.slider .slide {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+#shop-now .card {
+  background-color: #e8e8e8;
+}
+
+.card p {
+  font-size: 15px;
+}
+
+#shop-now .card:hover {
+  transform: scale(1.06);
+}
+
+del {
+  color: gray;
+  padding: 8px;
+}
+
+.card .btn:hover {
+  background-color: #f88017;
+  color: white;
+}
+
+#shop-now {
+  padding: 30px;
+}
+
+#shop-now .card img {
+  width: 300px;
+  height: 380px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer2 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Login */
+
+form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
+  background-color: white;
+
+  padding: 70px 80px 0px 90px !important;
+  box-shadow: 2px 4px 15px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 160px 0px 0px 160px;
+}
+
+.info a {
+  text-decoration: none;
+  color: white;
+  background-color: #c12869;
+  border-radius: 25%;
+  font-size: 25px;
+  padding: 8px;
+  margin: 5px;
+}
+
+.info h5 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* font-size: 22px; */
+}
+
+.info h3 {
+  color: #c12869;
+  font-weight: 700;
+}
+
+.info p {
+  font-size: 18px;
+}
+.form {
+  background: radial-gradient(#fc6c85, #e75480, #c12869);
+  border-radius: 0px 160px 160px 0px;
+  padding-right: 45px !important;
+}
+
+/* Admin */
+
+.fas {
+  background-color: #c12869;
+  border-radius: 100%;
+  color: white;
+  padding: 25px;
+  font-size: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.admin-card .card {
+  padding: 15px;
+  box-shadow: 4px 5px 6px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  background-color: #fffafa;
+}

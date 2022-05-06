@@ -1,0 +1,26 @@
+<h3>  <a name="gotoadduser" id=""  style="background-color: #1589ff;" class="btn text-light" href="/product" role="button"> <i class="fa fa-plus"></i> Add Product  </a> Product List </h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product ID</th>
+            <th>Product Title</th>
+            <th>Product Price</th>
+        </tr>
+    </thead>
+    <tbody>
+      {{#each list}}
+      <tr>
+          <td>{{this.Product_ID}}</td>
+          <td>{{this.Product_Title}}</td>
+          <td>{{this.Product_Price}}</td>
+
+          <td><a href="/product/{{this._id}}"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a></td>
+          <td><a href="/product/delete/{{this._id}}" onclick=" return confirm('Are you sure you what to delete this record?');" ><i class="fa fa-trash fa-lg" aria-hidden="true"></i></a></td>
+
+      </tr>
+      {{/each}}
+
+    </tbody>
+</table>
+
+<a class="btn text-light" href="/back" style="background-color: #1589ff;">Back</a>
