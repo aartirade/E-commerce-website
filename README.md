@@ -12,7 +12,7 @@ OwnShop28 is a fully responsive ecommerce website build using HTML5, CSS3, Boots
 
 
 <br>
-### Run Locally
+**Run Locally**
 
 To run **OwnShop28** locally, run this command on your git bash:
 
