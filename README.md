@@ -7,11 +7,11 @@ OwnShop28 is a fully responsive ecommerce website build using HTML5, CSS3, Boots
 <br />
 <br>
 <b>Demo Screenshots</b>
-<br>
+
 ![Screenshot (503)](https://user-images.githubusercontent.com/66359747/182465784-b2a9360d-49c1-45a1-8787-e1328c5aa712.png)
 
 
-<br>
+
 <br>
 <b>Run Locally<b>
 
